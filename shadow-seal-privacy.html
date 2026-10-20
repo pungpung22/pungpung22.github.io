@@ -93,8 +93,8 @@
         <dd>광고가 활성화된 버전에서는 게임에 포함된 Google 광고 SDK가 보상광고를 불러오고 보여 주며, 이때 Google이 광고 제공·측정·부정 이용 방지를 위해 IP 주소와 이를 통한 대략적 위치, 광고 ID 등 기기·앱 식별자, 광고 상호작용, 진단 정보와 개인정보 선택 정보를 Google의 정책에 따라 직접 처리합니다(5항의 광고 안내). 필요한 지역에서는 광고 요청 전에 동의 안내를 제공합니다. 운영자는 보상광고의 완료 여부, 광고 사건 식별자 및 지급 상태를 보상 지급과 중복 지급 방지를 위해 GameStack에서 처리합니다. 광고 선택권은 6항을 참고하세요. <a href="https://developers.google.com/admob/unity/privacy/play-data-disclosure">Google Mobile Ads의 데이터 안내</a></dd>
         <dt>인앱 결제 — 앱 스토어 및 GameStack</dt>
         <dd>결제 기능이 제공되는 경우 Google Play 또는 Apple이 결제를 처리합니다. 게임과 백엔드는 구매 검증·지급·복구를 위해 상품 ID, 거래 정보, 영수증 또는 구매 토큰과 이용 권한 상태를 처리할 수 있습니다. 카드 번호와 카드 비밀번호를 게임에서 받지 않습니다.</dd>
-        <dt>고객지원 및 개인정보 요청</dt>
-        <dd>문의 이메일 주소, 문의 내용 및 이용자가 첨부한 정보를 문제 해결과 요청 처리에 사용합니다. 문의 메일은 메일 서비스 RevBell로 받습니다(4·5항). 비밀번호, 로그인 토큰, 인증 코드 또는 카드 정보를 보내지 마세요. 보관 기간은 2항을 참고하세요.</dd>
+        <dt>고객지원 및 개인정보 요청 — 문의 메일(선택)</dt>
+        <dd>문의 메일을 보낼 때만 처리합니다. 항목: 보낸·받는·회신 주소와 이름, 제목, 본문, 메일 헤더, 첨부 이미지, 받은 시각과 전송 상태, 운영자의 답장, 이용자가 알려 준 닉네임·플레이어 ID·친구 코드·앱 버전·기기 정보와 적은 내용. 목적: 문의 응대, 개인정보·계정 삭제 요청 처리, 결제·오류 확인. 문의 메일은 메일 서비스 RevBell로 받아 Cloudflare에 보관하며, 운영자가 RevBell의 AI 기능을 쓰면 제목과 본문이 OpenAI로 전송됩니다(4·5항). 비밀번호, 로그인 토큰, 인증 코드 또는 카드 정보를 보내지 마세요. 보관 기간은 2항을 참고하세요.</dd>
       </dl>
       <p>이 방침에 적은 경우(4항의 처리 위탁, 5항의 국외 이전과 광고, 랭킹·채팅처럼 다른 이용자에게 보이는 게임 안 표시, 법령에 따른 제공) 외에는 개인정보를 제3자에게 제공하지 않습니다. 법적 의무를 이행하거나 보안·부정 이용 문제를 처리하기 위해 필요한 정보가 관계 기관에 제공될 수 있습니다.</p>
 
@@ -121,7 +121,7 @@
             <tr><td>Firebase Analytics (동의한 경우)</td><td>이벤트 단위 데이터 2개월, 사용자 단위 데이터 14개월(Google Analytics 데이터 보관 설정)</td></tr>
             <tr><td>Firebase Crashlytics (동의한 경우)</td><td>오류 기록과 관련 식별자는 90일 뒤 Google이 삭제 절차를 시작합니다(Google 안내 기준).</td></tr>
             <tr><td>Firebase 설치 ID (Remote Config, Cloud Messaging)</td><td>운영자가 삭제를 요청할 때까지 보관되며, 요청 후 180일 안에 삭제됩니다(Google 안내 기준).</td></tr>
-            <tr><td>고객지원 이메일(보낸 주소·이름, 제목·내용·첨부)</td><td>받은 날부터 3년(전자상거래법의 소비자 불만·분쟁 처리 기록 기간). 처리 중인 분쟁은 끝날 때까지 보관합니다. 청약철회 요청처럼 아래 법정 거래 기록에 해당하는 내용은 그 기간(5년)을 따릅니다. 메일 서비스 RevBell은 받은 메일의 본문을 1년, 첨부 이미지를 90일이 지나면 지우므로(4·5항), 운영자가 그 전에 메일과 답장을 내보내 따로 보관하고 기간이 지나면 지웁니다. 첨부 이미지는 분쟁 처리에 필요한 경우에만 따로 보관합니다.</td></tr>
+            <tr><td>고객지원 이메일(보낸 주소·이름, 제목·내용·첨부)</td><td>받은 날부터 1년이 지나면 본문과 이를 식별할 수 있는 정보가 메일 서비스 RevBell에서 자동으로 삭제되며, 첨부 이미지는 받은 날부터 90일 뒤 삭제됩니다(4·5항). 이보다 먼저 삭제를 원하면 문의처로 요청해 주세요. 결제·환불·청약철회 문의는 처리 결과(날짜·요지·결과)를 따로 남겨 아래 법정 거래 기록의 기간(소비자 불만·분쟁 처리 기록 3년, 청약철회 기록 5년) 보관합니다.</td></tr>
             <tr><td>법정 거래 기록 (전자상거래법 적용 시)</td><td>계약·청약철회 기록과 대금 결제·재화 공급 기록 5년, 소비자 불만·분쟁 처리 기록 3년, 표시·광고 기록 6개월. 법정 목적에만 사용하며 모든 게임 대화를 이 기간 보관한다는 뜻은 아닙니다. <a href="https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1018638379">관련 시행령 제6조</a></td></tr>
             <tr><td>Google 광고(AdMob), Apple과 Google의 로그인·결제 기록</td><td>각 사업자의 정책에 따릅니다(5항).</td></tr>
             <tr><td>기기 내 데이터</td><td>앱 데이터 삭제나 앱 제거로 삭제될 수 있습니다. 운영체제의 백업은 별도입니다.</td></tr>
@@ -137,7 +137,7 @@
 
       <h2 id="destruction">3. 파기 절차와 방법</h2>
       <p><strong>파기 절차:</strong> 보유 기간이 끝났거나 처리 목적을 달성한 정보, 유효한 삭제 요청이 확인된 정보는 지체 없이 파기합니다. 서버의 기간 만료 자료는 서버 시작 시와 6시간 간격의 정리 작업으로 삭제합니다. 계정 삭제는 서버가 성공을 확인하는 하나의 처리로 이루어지며, 실패하면 완료로 처리하지 않고 다시 시도할 수 있습니다. 법령에 따라 보관해야 하는 정보는 그 법정 목적으로만 이용하고 기간이 끝나면 파기합니다.</p>
-      <p><strong>파기 방법:</strong> 전자적 파일 형태의 정보는 서비스 데이터베이스에서 해당 기록을 삭제하거나, 식별정보를 제거하는 방식(비식별화)으로 처리합니다. 예를 들어 탈퇴 처리 기록은 기간이 지나면 식별정보를 지우고, 감사 기록은 상세 내용을 지운 뒤 남깁니다. 다만 구매 재사용 방지용 해시는 완전한 익명 정보라고 보장하지 않습니다. Firebase 등 서비스 제공자에 있는 정보는 해당 제공자의 삭제 기능과 보존 기준에 따라 삭제합니다(예: Google Analytics 사용자 삭제 요청). 개인정보를 종이로 출력해 보관하지 않습니다. 고객지원 이메일은 RevBell에서 지워지고, 운영자가 따로 보관한 사본은 보유 기간이 지나면 지웁니다.</p>
+      <p><strong>파기 방법:</strong> 전자적 파일 형태의 정보는 서비스 데이터베이스에서 해당 기록을 삭제하거나, 식별정보를 제거하는 방식(비식별화)으로 처리합니다. 예를 들어 탈퇴 처리 기록은 기간이 지나면 식별정보를 지우고, 감사 기록은 상세 내용을 지운 뒤 남깁니다. 다만 구매 재사용 방지용 해시는 완전한 익명 정보라고 보장하지 않습니다. Firebase 등 서비스 제공자에 있는 정보는 해당 제공자의 삭제 기능과 보존 기준에 따라 삭제합니다(예: Google Analytics 사용자 삭제 요청). 개인정보를 종이로 출력해 보관하지 않습니다. 고객지원 이메일은 보관 기간이 지나면 RevBell이 자동으로 지우고, 따로 남긴 결제·환불 처리 기록은 법정 기간이 지나면 지웁니다.</p>
       <p><strong>삭제 시점이 다를 수 있는 사본:</strong> 운영 시스템과 백업·로그의 삭제 시점은 다를 수 있으며, 모든 사본이 즉시 삭제된다고 보장하지 않습니다. 서버 복구용 사본은 만든 날부터 30일 안에 파기합니다. 백업 복원 후 탈퇴 이력을 자동 재적용하는 기능이 아직 없어, 서버 운영자가 복원본을 서비스에 연결하기 전에 삭제 기록을 대조·재적용해야 합니다. 수신자 기기에 이미 표시된 사본까지 즉시 모두 제거하는 것은 아닙니다.</p>
 
       <h2 id="entrustment">4. 처리 위탁</h2>
@@ -150,7 +150,9 @@
           <tbody>
             <tr><td>Railway Corporation</td><td>GameStack 서버(API·주 데이터베이스·실시간 서비스·실시간 데이터베이스) 호스팅과 서버 데이터 보관</td></tr>
             <tr><td>Google LLC</td><td>Firebase Analytics·Crashlytics(동의한 경우 이용 분석·오류 진단), Firebase Remote Config(서비스 설정 전달), Firebase Cloud Messaging(알림을 켠 경우 알림 전송)</td></tr>
-            <tr><td>Jaemin Song(RevBell 운영)</td><td>고객지원 이메일(pungpungstudi@hello-support.com) 받기·보관과 답장 보내기. RevBell은 Cloudflare, Inc.의 메일·서버 서비스를 씁니다.</td></tr>
+            <tr><td>RevBell(개발자 Jaemin Song)</td><td>고객지원 이메일(pungpungstudi@hello-support.com) 받기·보관과 답장 보내기. 보관: 받은 날부터 1년(첨부 이미지 90일)</td></tr>
+            <tr><td>Cloudflare, Inc.</td><td>RevBell이 쓰는 메일 수신·발송과 저장(R2·D1)</td></tr>
+            <tr><td>OpenAI, L.L.C.</td><td>운영자가 RevBell의 AI 기능(답장 초안·번역·요약)을 쓸 때 문의 메일의 제목과 본문(이메일 주소와 첨부 제외) 처리. RevBell은 이 내용을 AI 학습에 쓰지 않습니다.</td></tr>
           </tbody>
         </table>
       </div>
@@ -214,17 +216,17 @@
           </tbody>
         </table>
       </div>
-      <h3 id="overseas-revbell">RevBell — 고객지원 이메일</h3>
+      <h3 id="overseas-revbell">문의 메일 — RevBell · Cloudflare · OpenAI</h3>
       <div class="table-wrap">
         <table>
           <tbody>
-            <tr><th scope="row">이전받는 자·국가</th><td>Jaemin Song(RevBell 운영). 메일은 Cloudflare, Inc.(미국)의 서버에 보관되며, 보관 지역은 공개되어 있지 않습니다.</td></tr>
-            <tr><th scope="row">연락처</th><td><a href="mailto:privacy@hello-support.com">privacy@hello-support.com</a> · <a href="https://reviewbell.byjm.dev/privacy">RevBell 개인정보처리방침</a></td></tr>
-            <tr><th scope="row">이전 항목</th><td>보낸 주소·받는 주소·회신 주소, 이름, 제목, 본문, 첨부 이미지(PNG·JPEG·GIF·WebP), 받은 시각, 운영자의 답장</td></tr>
-            <tr><th scope="row">이전 시기와 방법</th><td>이용자가 고객지원 이메일로 메일을 보낼 때와 운영자가 답장할 때 이메일로 전송해 보관</td></tr>
-            <tr><th scope="row">이용 목적</th><td>고객 문의를 받고 답하기</td></tr>
-            <tr><th scope="row">보유 기간</th><td>RevBell에서는 받은 메일 본문은 1년, 첨부 이미지는 90일 뒤 지워집니다. 운영자가 따로 보관하는 사본은 2항을 따릅니다.</td></tr>
-            <tr><th scope="row">거부 방법과 결과</th><td>고객지원 이메일로 문의하지 않으면 이전되지 않습니다. 이 경우 이메일 문의를 이용할 수 없습니다.</td></tr>
+            <tr><th scope="row">이전받는 자·국가</th><td>RevBell(개발자 Jaemin Song): 고객지원 이메일로 온 메일을 받아 보관하고 운영자가 읽고 답장하게 합니다.<br>Cloudflare, Inc.(미국, 보관 위치 미국 등 Cloudflare 데이터센터): RevBell이 쓰는 메일 수신·발송과 저장(R2·D1).<br>OpenAI, L.L.C.(미국): 운영자가 RevBell의 AI 기능(답장 초안·번역·요약)을 쓸 때만 제목과 본문을 받아 그 결과를 만듭니다. RevBell은 이 내용을 AI 학습에 쓰지 않습니다.</td></tr>
+            <tr><th scope="row">연락처</th><td><a href="mailto:privacy@hello-support.com">privacy@hello-support.com</a> · <a href="https://reviewbell.byjm.dev/privacy">RevBell 개인정보처리방침</a> · <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare 개인정보처리방침</a> · <a href="https://openai.com/policies/privacy-policy/">OpenAI 개인정보처리방침</a></td></tr>
+            <tr><th scope="row">이전 항목</th><td>1항의 문의 메일 정보. OpenAI에는 제목과 본문만 보냅니다(이메일 주소와 첨부 제외).</td></tr>
+            <tr><th scope="row">이전 시기와 방법</th><td>이용자가 고객지원 이메일로 메일을 보낼 때와 운영자가 답장할 때 네트워크로 전송해 보관합니다. OpenAI에는 AI 기능으로 메일을 처리할 때 보냅니다.</td></tr>
+            <tr><th scope="row">이용 목적</th><td>고객 문의를 받고 답하기(번역·답장 초안 포함)</td></tr>
+            <tr><th scope="row">보유 기간</th><td>RevBell·Cloudflare: 받은 날부터 1년(첨부 이미지 90일, 2항). OpenAI: OpenAI의 정책에 따릅니다.</td></tr>
+            <tr><th scope="row">거부 방법과 결과</th><td>문의 메일은 보내지 않으면 국외로 이전되지 않으며, 보내지 않아도 게임 이용에는 제한이 없습니다.</td></tr>
           </tbody>
         </table>
       </div>
@@ -333,7 +335,7 @@
           <li><strong>Firebase Cloud Messaging:</strong> notifications are off by default. Only when you turn them on in the game and allow them on the device does the game create a push token, register it with GameStack and deliver notifications. Notifications can be disabled in game or device settings. We do not send advertising notifications (section 10).</li>
           <li><strong>AdMob:</strong> in ad-enabled versions, Google's ads SDK in the game loads and shows rewarded ads, and Google itself processes IP address and IP-derived approximate location, advertising and other device/app identifiers, ad interactions, diagnostics and privacy choices for ad delivery, measurement and fraud prevention under Google's own policies (section 5). Required consent notices appear before ad requests. The publisher processes reward completion, ad event identifiers and grant status in GameStack to deliver each reward once. See <a href="https://developers.google.com/admob/unity/privacy/play-data-disclosure">Google's SDK disclosure</a>.</li>
           <li><strong>Purchases:</strong> where available, Apple or Google handles payment. Product and transaction details, receipts/purchase tokens and entitlements may be processed by the game and backend for validation, delivery and restoration. The game does not receive card numbers or card passwords.</li>
-          <li><strong>Support:</strong> your email, message and voluntarily supplied attachments help resolve your request. We receive support email through the mail service RevBell (sections 4 and 5). Do not send passwords, verification codes, session tokens or payment-card information. See section 2 for retention.</li>
+          <li><strong>Support email (optional):</strong> processed only when you write to us. Items: sender, recipient and reply-to addresses and names, subject, body, email headers, attached images, time received and delivery status, our replies, and the nickname, player ID, friend code, app version, device details and text you provide. Purposes: answering inquiries, handling privacy and account deletion requests, checking payments and errors. Support email is received through the mail service RevBell and stored with Cloudflare; when we use RevBell's AI features, the subject and body are sent to OpenAI (sections 4 and 5). Do not send passwords, verification codes, session tokens or payment-card information. See section 2 for retention.</li>
         </ul>
         <p>Except as described in this policy (processors in section 4, transfers and advertising in section 5, in-game displays visible to other players such as rankings and chat, and disclosures required by law), we do not provide personal information to third parties. Information may be disclosed when required by law or necessary to address security or fraud.</p>
 
@@ -359,7 +361,7 @@
               <tr><td>Firebase Analytics (with consent)</td><td>Event-level data 2 months and user-level data 14 months (Google Analytics data retention settings)</td></tr>
               <tr><td>Firebase Crashlytics (with consent)</td><td>Google starts deleting crash records and related identifiers after 90 days (per Google's documentation).</td></tr>
               <tr><td>Firebase installation IDs (Remote Config, Cloud Messaging)</td><td>Kept until the publisher requests deletion, then removed within 180 days (per Google's documentation).</td></tr>
-              <tr><td>Support emails (sender address and name, subject, body, attachments)</td><td>3 years from receipt (the period for consumer complaint and dispute records under the Korean E-Commerce Act). Emails about an open dispute are kept until it is resolved. Content that is a statutory transaction record, such as a withdrawal (cancellation) request, follows that period below (5 years). Because the mail service RevBell deletes the body of a received email after 1 year and attached images after 90 days (sections 4 and 5), we export emails and our replies before then, keep that copy separately and delete it when the period ends. Attached images are kept separately only when needed to handle a dispute.</td></tr>
+              <tr><td>Support emails (sender address and name, subject, body, attachments)</td><td>Deleted automatically by the mail service RevBell one year after receipt, together with the information that identifies them; attached images are deleted 90 days after receipt (sections 4 and 5). To have them deleted sooner, contact us. For payment, refund and withdrawal (cancellation) inquiries we keep a separate record of how they were handled (date, summary, outcome) for the statutory periods below (consumer complaint and dispute records 3 years, withdrawal records 5 years).</td></tr>
               <tr><td>Statutory transaction records (where Korean e-commerce law applies)</td><td>Contracts/withdrawals and payment/supply records: 5 years; consumer complaints/disputes: 3 years; advertising records: 6 months; used only for the statutory purpose. This does not mean retaining all chat for those periods.</td></tr>
               <tr><td>Google advertising (AdMob), Apple/Google sign-in and payment records</td><td>Under each company's own policy (section 5).</td></tr>
               <tr><td>On-device data</td><td>May be erased by clearing app data or uninstalling; operating-system backups are separate.</td></tr>
@@ -375,7 +377,7 @@
 
         <h3 id="destruction-en">3. Destruction procedure and method</h3>
         <p><strong>Procedure:</strong> information whose retention period has ended, whose purpose has been achieved, or for which a valid deletion request has been confirmed is destroyed without delay. Expired server data is removed by the cleanup that runs on server start and every six hours. Account deletion is a single server operation; if it fails it is not treated as complete and can be retried. Information the law requires us to keep is used only for that statutory purpose and destroyed when the period ends.</p>
-        <p><strong>Method:</strong> electronic records are deleted from the service databases or de-identified by removing identifying information (for example, identifiers are removed from deletion-operation records after their period, and audit records keep no details). Payment reuse-prevention hashes are not guaranteed to be anonymous. Information held by providers such as Firebase is deleted with that provider's deletion tools and retention rules (for example, a Google Analytics user deletion request). We do not print personal information on paper. Support emails are deleted in RevBell, and the copy we keep separately is deleted when its retention period ends.</p>
+        <p><strong>Method:</strong> electronic records are deleted from the service databases or de-identified by removing identifying information (for example, identifiers are removed from deletion-operation records after their period, and audit records keep no details). Payment reuse-prevention hashes are not guaranteed to be anonymous. Information held by providers such as Firebase is deleted with that provider's deletion tools and retention rules (for example, a Google Analytics user deletion request). We do not print personal information on paper. Support emails are deleted automatically by RevBell when their retention period ends, and the separate payment and refund handling records are deleted when their statutory period ends.</p>
         <p><strong>Copies that may be deleted later:</strong> live systems, backups and logs may have different deletion schedules, and immediate removal of every copy is not guaranteed. Server recovery copies are destroyed within 30 days of creation. Automatic reapplication of account deletions after a backup restore is not implemented; the server operator must reconcile and reapply deletion records before returning a restored copy to service. Copies already displayed on recipients' devices are not all removed immediately.</p>
 
         <h3 id="entrustment-en">4. Processors (entrusted processing)</h3>
@@ -387,7 +389,9 @@
             <tbody>
               <tr><td>Railway Corporation</td><td>Hosting of the GameStack server (API, primary database, realtime service, realtime database) and server data storage</td></tr>
               <tr><td>Google LLC</td><td>Firebase Analytics and Crashlytics (analytics and diagnostics with consent), Firebase Remote Config (service settings), Firebase Cloud Messaging (notifications when turned on)</td></tr>
-              <tr><td>Jaemin Song (operator of RevBell)</td><td>Receiving and storing support email (pungpungstudi@hello-support.com) and sending our replies. RevBell uses Cloudflare, Inc.'s email and server services.</td></tr>
+              <tr><td>RevBell (developer Jaemin Song)</td><td>Receiving and storing support email (pungpungstudi@hello-support.com) and sending our replies; kept for one year from receipt (attached images 90 days)</td></tr>
+              <tr><td>Cloudflare, Inc.</td><td>Email receiving, sending and storage (R2, D1) used by RevBell</td></tr>
+              <tr><td>OpenAI, L.L.C.</td><td>When we use RevBell's AI features (reply drafts, translation, summaries), processing the subject and body of a support email (without email addresses or attachments); RevBell does not use this content for AI training</td></tr>
             </tbody>
           </table>
         </div>
@@ -453,15 +457,15 @@
         </div>
         <div class="table-wrap">
           <table>
-            <caption>RevBell — support email</caption>
+            <caption>Support email — RevBell, Cloudflare, OpenAI</caption>
             <tbody>
-              <tr><th scope="row">Recipient and country</th><td>Jaemin Song (operator of RevBell). Emails are stored on servers of Cloudflare, Inc. (United States); the storage region is not published.</td></tr>
-              <tr><th scope="row">Contact</th><td><a href="mailto:privacy@hello-support.com">privacy@hello-support.com</a> · <a href="https://reviewbell.byjm.dev/privacy">RevBell privacy policy</a></td></tr>
-              <tr><th scope="row">Items</th><td>Sender, recipient and reply-to addresses, name, subject, body, attached images (PNG, JPEG, GIF, WebP), time received, our replies</td></tr>
-              <tr><th scope="row">When and how</th><td>By email, when you write to the support address and when we reply</td></tr>
-              <tr><th scope="row">Purpose</th><td>Receiving and answering support inquiries</td></tr>
-              <tr><th scope="row">Retention</th><td>In RevBell, email bodies are deleted after 1 year and attached images after 90 days; the copy we keep separately follows section 2.</td></tr>
-              <tr><th scope="row">How to refuse and consequence</th><td>Nothing is transferred if you do not write to the support email; email support is then unavailable.</td></tr>
+              <tr><th scope="row">Recipient and country</th><td>RevBell (developer Jaemin Song): receives and stores email sent to the support address so that we can read and answer it.<br>Cloudflare, Inc. (United States; stored in Cloudflare data centers in the US and elsewhere): email receiving, sending and storage (R2, D1) used by RevBell.<br>OpenAI, L.L.C. (United States): only when we use RevBell's AI features (reply drafts, translation, summaries), receives the subject and body to produce that result. RevBell does not use this content for AI training.</td></tr>
+              <tr><th scope="row">Contact</th><td><a href="mailto:privacy@hello-support.com">privacy@hello-support.com</a> · <a href="https://reviewbell.byjm.dev/privacy">RevBell privacy policy</a> · <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare privacy policy</a> · <a href="https://openai.com/policies/privacy-policy/">OpenAI privacy policy</a></td></tr>
+              <tr><th scope="row">Items</th><td>The support email information in section 1. Only the subject and body go to OpenAI (no email addresses or attachments).</td></tr>
+              <tr><th scope="row">When and how</th><td>Over the network when you write to the support address and when we reply; to OpenAI when an email is processed with an AI feature</td></tr>
+              <tr><th scope="row">Purpose</th><td>Receiving and answering support inquiries (including translation and reply drafts)</td></tr>
+              <tr><th scope="row">Retention</th><td>RevBell and Cloudflare: one year from receipt (attached images 90 days; section 2). OpenAI: under OpenAI's policy.</td></tr>
+              <tr><th scope="row">How to refuse and consequence</th><td>Support email is transferred only if you send it, and not sending it does not limit the game.</td></tr>
             </tbody>
           </table>
         </div>
@@ -557,7 +561,7 @@
           <li><strong>任意の通知（Firebase Cloud Messaging）：</strong>通知は初期状態でオフです。ゲームで通知をオンにして端末で許可した場合のみ配信用トークンを作成してGameStackに登録し、通知を送ります。ゲーム・端末設定で解除できます。広告目的の通知は送りません（10項）。</li>
           <li><strong>広告（AdMob）：</strong>広告が有効なバージョンでは、ゲームに含まれるGoogleの広告SDKが報酬広告を読み込み・表示し、その際にGoogleが広告配信・測定・不正防止のため、IPアドレスと推定のおおよその位置、広告ID等の端末・アプリ識別子、広告操作、診断、プライバシー選択をGoogle自身のポリシーに従って処理します（5項）。必要な地域では広告要求前に同意を案内します。運営者は報酬の視聴完了・広告イベント識別子・付与状態を、重複付与防止のためGameStackで処理します。</li>
           <li><strong>購入：</strong>Apple・Googleが決済を処理し、ゲームとサーバーは商品・取引・領収書・購入確認情報と権利を検証・付与・復元に使います。カード番号や暗証番号は受け取りません。</li>
-          <li><strong>サポート：</strong>メールアドレス、問い合わせ内容と添付資料を解決と権利行使に使用します。お問い合わせメールはメールサービスRevBellで受け付けます（4・5項）。パスワード、認証コード、ログイン用トークン、カードの機密情報は送らないでください。保存期間は2項をご覧ください。</li>
+          <li><strong>お問い合わせメール（任意）：</strong>メールを送ったときだけ処理します。項目：送信元・宛先・返信先のアドレスと名前、件名、本文、メールヘッダー、添付画像、受信日時と配信状態、運営者の返信、お知らせいただいたニックネーム・プレイヤーID・フレンドコード・アプリのバージョン・機種と記載内容。目的：お問い合わせへの回答、個人情報・アカウント削除の依頼の処理、決済・不具合の確認。お問い合わせメールはメールサービスRevBellで受け付けてCloudflareに保管し、運営者がRevBellのAI機能を使うと件名と本文がOpenAIへ送られます（4・5項）。パスワード、認証コード、ログイン用トークン、カードの機密情報は送らないでください。保存期間は2項をご覧ください。</li>
         </ul>
         <p>本方針に記載した場合（4項の委託、5項の国外移転と広告、ランキング・チャット等の他の利用者に表示されるゲーム内表示、法令に基づく提供）を除き、個人情報を第三者に提供しません。法的義務、安全・不正対策のため関係機関に必要な情報を提供する場合があります。</p>
 
@@ -583,7 +587,7 @@
               <tr><td>Firebase Analytics（同意した場合）</td><td>イベント単位のデータは2か月、ユーザー単位のデータは14か月（Google Analyticsのデータ保持設定）</td></tr>
               <tr><td>Firebase Crashlytics（同意した場合）</td><td>障害記録と関連識別子は90日後にGoogleが削除手続を開始します（Googleの説明による）。</td></tr>
               <tr><td>FirebaseインストールID（Remote Config・Cloud Messaging）</td><td>運営者が削除を依頼するまで保存され、依頼後180日以内に削除されます（Googleの説明による）。</td></tr>
-              <tr><td>サポートメール（送信元のアドレス・名前、件名・本文・添付）</td><td>受信日から3年（韓国電子商取引法の消費者の苦情・紛争処理の記録期間）。処理中の紛争は終わるまで保管します。申込みの撤回の依頼など下記の法定取引記録にあたる内容はその期間（5年）に従います。メールサービスRevBellは受信したメールの本文を1年、添付画像を90日で削除するため（4・5項）、運営者がその前にメールと返信を書き出して別に保管し、期間が過ぎたら削除します。添付画像は紛争の処理に必要な場合に限り別に保管します。</td></tr>
+              <tr><td>サポートメール（送信元のアドレス・名前、件名・本文・添付）</td><td>受信日から1年が過ぎると、本文とそれを識別できる情報がメールサービスRevBellで自動的に削除され、添付画像は受信日から90日後に削除されます（4・5項）。それより早い削除を希望する場合はお問い合わせ先へご依頼ください。決済・返金・申込みの撤回に関するお問い合わせは、処理結果（日付・要旨・結果）を別に記録し、下記の法定取引記録の期間（消費者の苦情・紛争処理の記録3年、撤回の記録5年）保管します。</td></tr>
               <tr><td>法定の取引記録（韓国の電子商取引法が適用される場合）</td><td>契約・撤回、決済・供給の記録は5年、消費者の苦情・紛争の記録は3年、表示・広告の記録は6か月。法定目的に限って使用し、全会話にこの期間を適用する意味ではありません。</td></tr>
               <tr><td>Google広告（AdMob）、Apple・Googleのログイン・決済記録</td><td>各事業者のポリシーに従います（5項）。</td></tr>
               <tr><td>端末内のデータ</td><td>アプリデータの削除やアンインストールで削除される場合があります。OSのバックアップは別です。</td></tr>
@@ -599,7 +603,7 @@
 
         <h3 id="destruction-ja">3. 廃棄の手続と方法</h3>
         <p><strong>手続：</strong>保存期間が終了した情報、処理目的を達成した情報、有効な削除請求が確認された情報は遅滞なく廃棄します。期限切れのサーバー資料はサーバー起動時と6時間ごとの整理で削除します。アカウント削除はサーバーの一つの処理で行い、失敗した場合は完了とせず再試行できます。法令で保存が必要な情報はその法定目的にのみ使用し、期間終了後に廃棄します。</p>
-        <p><strong>方法：</strong>電子的な記録はサービスのデータベースから削除するか、識別情報を除去する方法（非識別化）で処理します。例えば退会処理記録は期間経過後に識別情報を消し、監査記録は詳細を消して残します。購入の再利用防止用ハッシュは完全な匿名化を保証しません。Firebase等の提供者が保有する情報は、その提供者の削除機能と保存基準に従って削除します（例：Google Analyticsのユーザー削除申請）。個人情報を紙に印刷して保管しません。サポートメールはRevBellで削除され、運営者が別に保管する写しは保存期間が過ぎたら削除します。</p>
+        <p><strong>方法：</strong>電子的な記録はサービスのデータベースから削除するか、識別情報を除去する方法（非識別化）で処理します。例えば退会処理記録は期間経過後に識別情報を消し、監査記録は詳細を消して残します。購入の再利用防止用ハッシュは完全な匿名化を保証しません。Firebase等の提供者が保有する情報は、その提供者の削除機能と保存基準に従って削除します（例：Google Analyticsのユーザー削除申請）。個人情報を紙に印刷して保管しません。サポートメールは保存期間が過ぎるとRevBellが自動的に削除し、別に記録した決済・返金の処理記録は法定期間が過ぎたら削除します。</p>
         <p><strong>削除時期が異なる場合がある複製：</strong>運用環境とバックアップ・ログの削除時期は異なり、全複製の即時消去は保証しません。サーバー復旧用のコピーは作成日から30日以内に廃棄します。復元後に退会履歴を自動で再適用する機能は未実装のため、サーバー運営者は復元コピーをサービスにつなぐ前に削除記録を照合・再適用する必要があります。受信端末に表示済みの複製まで直ちに全て消すものではありません。</p>
 
         <h3 id="entrustment-ja">4. 処理の委託</h3>
@@ -611,7 +615,9 @@
             <tbody>
               <tr><td>Railway Corporation</td><td>GameStackサーバー（API・主データベース・リアルタイムサービス・リアルタイムデータベース）のホスティングとサーバーデータの保管</td></tr>
               <tr><td>Google LLC</td><td>Firebase Analytics・Crashlytics（同意した場合の分析・障害診断）、Firebase Remote Config（サービス設定の配信）、Firebase Cloud Messaging（通知をオンにした場合の通知配信）</td></tr>
-              <tr><td>Jaemin Song（RevBellの運営者）</td><td>サポートメール（pungpungstudi@hello-support.com）の受信・保管と返信の送信。RevBellはCloudflare, Inc.のメール・サーバーサービスを使用します。</td></tr>
+              <tr><td>RevBell（開発者 Jaemin Song）</td><td>サポートメール（pungpungstudi@hello-support.com）の受信・保管と返信の送信。保管：受信日から1年（添付画像90日）</td></tr>
+              <tr><td>Cloudflare, Inc.</td><td>RevBellが使うメールの受信・送信と保管（R2・D1）</td></tr>
+              <tr><td>OpenAI, L.L.C.</td><td>運営者がRevBellのAI機能（返信の下書き・翻訳・要約）を使うとき、お問い合わせメールの件名と本文（メールアドレスと添付を除く）の処理。RevBellはこの内容をAIの学習に使いません。</td></tr>
             </tbody>
           </table>
         </div>
@@ -677,15 +683,15 @@
         </div>
         <div class="table-wrap">
           <table>
-            <caption>RevBell — サポートメール</caption>
+            <caption>お問い合わせメール — RevBell・Cloudflare・OpenAI</caption>
             <tbody>
-              <tr><th scope="row">移転先・国</th><td>Jaemin Song（RevBellの運営者）。メールはCloudflare, Inc.（米国）のサーバーに保管され、保管地域は公開されていません。</td></tr>
-              <tr><th scope="row">連絡先</th><td><a href="mailto:privacy@hello-support.com">privacy@hello-support.com</a> · <a href="https://reviewbell.byjm.dev/privacy">RevBellのプライバシーポリシー</a></td></tr>
-              <tr><th scope="row">項目</th><td>送信元・宛先・返信先のアドレス、名前、件名、本文、添付画像（PNG・JPEG・GIF・WebP）、受信日時、運営者の返信</td></tr>
-              <tr><th scope="row">時期と方法</th><td>サポートメールにお問い合わせを送るときと運営者が返信するときに、メールで送信して保管</td></tr>
-              <tr><th scope="row">目的</th><td>お問い合わせの受付と回答</td></tr>
-              <tr><th scope="row">保存期間</th><td>RevBellでは本文は1年、添付画像は90日で削除されます。運営者が別に保管する写しは2項に従います。</td></tr>
-              <tr><th scope="row">拒否の方法と結果</th><td>サポートメールでお問い合わせをしなければ移転されません。その場合、メールでのお問い合わせは利用できません。</td></tr>
+              <tr><th scope="row">移転先・国</th><td>RevBell（開発者 Jaemin Song）：サポートメールに届いたメールを受信・保管し、運営者が読んで返信できるようにします。<br>Cloudflare, Inc.（米国、保管場所は米国などのCloudflareデータセンター）：RevBellが使うメールの受信・送信と保管（R2・D1）。<br>OpenAI, L.L.C.（米国）：運営者がRevBellのAI機能（返信の下書き・翻訳・要約）を使うときだけ、件名と本文を受け取って結果を作ります。RevBellはこの内容をAIの学習に使いません。</td></tr>
+              <tr><th scope="row">連絡先</th><td><a href="mailto:privacy@hello-support.com">privacy@hello-support.com</a> · <a href="https://reviewbell.byjm.dev/privacy">RevBellのプライバシーポリシー</a> · <a href="https://www.cloudflare.com/privacypolicy/">Cloudflareのプライバシーポリシー</a> · <a href="https://openai.com/policies/privacy-policy/">OpenAIのプライバシーポリシー</a></td></tr>
+              <tr><th scope="row">項目</th><td>1項のお問い合わせメールの情報。OpenAIには件名と本文だけを送ります（メールアドレスと添付を除く）。</td></tr>
+              <tr><th scope="row">時期と方法</th><td>サポートメールにお問い合わせを送るときと運営者が返信するときにネットワークで送信して保管。OpenAIにはAI機能でメールを処理するときに送信</td></tr>
+              <tr><th scope="row">目的</th><td>お問い合わせの受付と回答（翻訳・返信の下書きを含む）</td></tr>
+              <tr><th scope="row">保存期間</th><td>RevBell・Cloudflare：受信日から1年（添付画像90日、2項）。OpenAI：OpenAIのポリシーに従います。</td></tr>
+              <tr><th scope="row">拒否の方法と結果</th><td>お問い合わせメールは送らなければ国外へ移転されず、送らなくてもゲームの利用に制限はありません。</td></tr>
             </tbody>
           </table>
         </div>
